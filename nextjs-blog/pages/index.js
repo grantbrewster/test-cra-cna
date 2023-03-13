@@ -1,7 +1,7 @@
 import React from 'react';
 import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
-import About from '../../src/About';
-import HelloWorld from '../../src/HelloWorld';
+// import About from '../../src/About';
+// import HelloWorld from '../../src/HelloWorld';
 
 export default function App() {
   return (
@@ -16,10 +16,10 @@ export default function App() {
           </li>
         </ul>
 
-        <Routes>
+        {/* <Routes>
           <Route path="/about" Component={About} />
           <Route path="/" Component={HelloWorld}/>
-        </Routes>
+        </Routes> */}
       </div>
     </Router>
   );
